@@ -1,0 +1,90 @@
+<html lang="en-US">
+<head>
+    <title>Tipsease-home-page</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="candy.css" type="text/css" media="all">
+    <style>
+        .candy-piece {
+            position: relative;
+            display: inline-block;
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background: repeating-linear-gradient(
+              45deg,
+              #fff,         #fff    20px, /* White  */
+              #d8e7ff 20px, #d8e7ff 40px, /* Blue   */
+              #ffddea 40px, #ffddea 60px, /* Pink   */
+              #e2ffe9 60px, #e2ffe9 80px, /* Green  */
+              #f1e0ff 80px, #f1e0ff 100px /* Purple */
+            );
+        }
+
+        .candy-piece::before {
+            position: absolute;
+            top: 10px;
+            right: calc(100% + 10px);
+            display: block;
+            border-top: 40px solid transparent;
+            border-bottom: 40px solid transparent;
+            border-left: 40px solid #fff;
+            content: '';
+        }
+
+        .candy-piece::after {
+            position: absolute;
+            top: 10px;
+            left: calc(100% + 10px);
+            display: block;
+            border-top: 40px solid transparent;
+            border-bottom: 40px solid transparent;
+            border-right: 40px solid #fff;
+            content: '';
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <section id="intro" class="purple-background large-top-padding large-bottom-padding">
+            <div class="container small-padding">
+                <div class="full-width center-align large-top-padding large-bottom-padding">
+                    <div class="candy-piece"></div>
+                    <h1 class="uppercase"><strong><span class="light-text">T</span><span class="light-blue-text">i</span><span class="light-pink-text">p</span><span class="light-green-text">s</span><span class="light-purple-text">e</span><span class="light-blue-text">a</span><span class="light-pink-text">s</span><span class="light-green-text"></span><span class="light-purple-text">e</span></strong></h1>
+                    <h4 class="light-text normal-weight"> We make giving tips easy! </p>
+                        <h4 class="light-text normal-weight"> Log In to become Member. </p>
+                            <h4 class="light-text normal-weight"> It's easy and no credit card information required. </p>
+                        <a class="button" href="#">Log In</a>
+                </div>
+            </div>
+        </section>
+
+        <nav class="main-nav sticky-nav">
+            <div class="menu">
+                <h3 class="small-left-padding uppercase"><strong>T<span class="light-blue-text">i</span><span class="light-pink-text">p</span><span class="light-green-text">s</span><span class="light-purple-text">e</span><span class="light-blue-text">a</span><span class="light-pink-text">s</span><span class="light-green-text"></span><span class="light-purple-text">e</span></strong></h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="marketing.html">About Us</a></li>
+                    <li><a href="team.html">Our Team</a></li>
+                   
+                </ul>
+                <button class="open-menu">Menu</button>
+                <button class="close-menu">Close</button>
+            </div>
+        </nav>
+
+        <section id="typography">
+           <div class="container small-padding"> 
+                <div class="full-width">
+                        
+            
+                </div>
+            </div>
+        </section>
+
+        
+        </section>
+    </main>
+    <script src="dist/candy.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>
