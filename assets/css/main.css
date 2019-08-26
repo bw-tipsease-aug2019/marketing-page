@@ -2291,11 +2291,12 @@ input, select, textarea {
 			}
 
 		.icon.style1 {
-			color: #046d00;
+			
+			color: rgb(87, 2, 27);
 		}
 
 		.icon.style2 {
-			color: #5f0661;
+			color: rgb(0, 0, 0);
 		}
 
 		.icon.style3 {
@@ -2307,7 +2308,7 @@ input, select, textarea {
 		}
 
 		.icon.style5 {
-			color: #161072;
+			color: rgb(2, 209, 209);
 		}
 
 		@media screen and (max-width: 1680px) {
@@ -3221,7 +3222,7 @@ input, select, textarea {
 		width: 64em;
 		max-width: calc(100% - 4em);
 		padding: 1em;
-		background-color: #f7f7f7;
+		background-color: dodgerblue;
 		border-top-left-radius: 0.25em;
 		border-top-right-radius: 0.25em;
 		cursor: default;
@@ -3233,7 +3234,7 @@ input, select, textarea {
 		}
 
 		#nav a:hover {
-			color: #636363;
+			color: greenyellow;
 		}
 
 		#nav strong, #nav b {
