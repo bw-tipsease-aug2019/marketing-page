@@ -3790,9 +3790,6 @@ input, select, textarea {
 	display:flex;
 	flex-wrap:wrap;
 	justify-content:space-around;
-	
-
-
 }
 .teammember{
 	width:45%;
