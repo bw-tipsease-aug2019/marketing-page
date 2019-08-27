@@ -156,11 +156,9 @@ html .land-body .container .navbar .navbar-brand {
   font-size: 3rem;
   width: 50%;
 }
-
 html .land-body .container .navbar-toggler {
   background-color: #85bb65;
 }
-
 html .land-body .container .navbar-light .navbar-nav {
   width: 100%;
   display: flex;
@@ -170,13 +168,11 @@ html .land-body .container .navbar-light .navbar-nav .nav-link {
   color: white;
   text-shadow: 1px 1px black;
   font-size: 1.9rem;
-
   margin-left: 5rem;
   text-align: right;
 }
 html .land-body .container .navbar-light .navbar-nav .nav-link:hover {
   font-weight: bold;
-
 }
 html .land-body .container .landing {
   position: fixed;
@@ -197,16 +193,11 @@ html .land-body .container .slogan {
   font-size: 6rem;
   padding-bottom: 2.5rem;
   color: White;
-
-  text-shadow: 1px 1px #000000;
-
   width: 100%;
 }
 @media (max-width: 690px) {
   html .land-body .container .slogan {
-
     font-size: 4.75rem;
-
     width: 100%;
   }
 }
@@ -224,6 +215,29 @@ html .land-body .container .signup button {
     font-size: 1.8rem;
   }
 }
+#aboutbody {
+  background: #f5f5f5;
+  background: linear-gradient(180deg, #f5f5f5 0%, #87c7b5 10%);
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0 auto;
+}
+#aboutbody h3 {
+  margin-top: 1%;
+  font-size: 2.5rem;
+}
+#aboutbody .navbar {
+  border: 1px solid darkgrey;
+}
+.pic-box {
+  text-align: center;
+}
+#teampic {
+  padding-top: 1%;
+  max-width: 100%;
+}
 .navbar .navbar-brand {
   font-family: 'Fugaz One', cursive;
   color: #85bb65;
@@ -237,7 +251,6 @@ html .land-body .container .signup button {
 }
 .navbar-light .navbar-nav .nav-link {
   font-size: 1.9rem;
-
   margin-left: 5rem;
   text-align: right;
 }
@@ -246,10 +259,10 @@ html .land-body .container .signup button {
 }
 .navbar-light .navbar-nav #about {
   font-weight: bold;
-
 }
 .mission {
-  margin-top: 15rem;
+  margin: 0 auto;
+  margin-top: 1%;
   width: 50rem;
 }
 @media (max-width: 690px) {
@@ -266,6 +279,31 @@ html .land-body .container .signup button {
   font-size: 1.6rem;
   margin-bottom: 2rem;
 }
+.header .home .content-section {
+  margin: 30px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.header .home .content-section .img-content {
+  width: 48%;
+  padding-left: 1%;
+}
+@media (max-width: 690px) {
+  .header .home .content-section .img-content {
+    width: 100%;
+    padding: 0;
+  }
+}
+.header .home .content-section .img-content img {
+  border-radius: 10px;
+}
+@media (max-width: 690px) {
+  .header .home .content-section .img-content img {
+    width: 100%;
+    padding: 0;
+  }
+}
 .container h1 {
   text-align: center;
 }
@@ -277,7 +315,6 @@ html .land-body .container .signup button {
   width: 40%;
   border: 1px solid lightgray;
 }
-
 #teambody {
   background: #f5f5f5;
   background: linear-gradient(180deg, #f5f5f5 0%, #87c7b5 10%);
@@ -334,4 +371,3 @@ html .land-body .container .signup button {
 #teambody .navbar {
   border: 1px solid darkgrey;
 }
-
