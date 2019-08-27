@@ -165,7 +165,11 @@ html .land-body .container .navbar-light .navbar-nav .nav-link {
   color: white;
   text-shadow: 1px 1px black;
   font-size: 1.9rem;
-  text-align: center;
+  margin-left: 5rem;
+  text-align: right;
+}
+html .land-body .container .navbar-light .navbar-nav .nav-link:hover {
+  font-weight: bold;
 }
 html .land-body .container .landing {
   position: fixed;
@@ -186,12 +190,11 @@ html .land-body .container .slogan {
   font-size: 6rem;
   padding-bottom: 2.5rem;
   color: White;
-  text-shadow: 1px 1px #000000;
   width: 100%;
 }
 @media (max-width: 690px) {
   html .land-body .container .slogan {
-    font-size: 3rem;
+    font-size: 4.75rem;
     width: 100%;
   }
 }
@@ -222,7 +225,14 @@ html .land-body .container .signup button {
 }
 .navbar-light .navbar-nav .nav-link {
   font-size: 1.9rem;
-  text-align: center;
+  margin-left: 5rem;
+  text-align: right;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+  font-weight: bold;
+}
+.navbar-light .navbar-nav #about {
+  font-weight: bold;
 }
 .mission {
   margin-top: 15rem;
