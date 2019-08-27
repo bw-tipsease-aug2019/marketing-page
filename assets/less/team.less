@@ -1,0 +1,44 @@
+html{
+    background: rgb(245,245,245);
+    background: linear-gradient(180deg, rgba(245,245,245,1) 0%, rgba(135,199,181,1) 10%);
+    min-height:1200%;
+}
+
+
+
+#teamhead{
+    text-align:center;
+    font-size:4rem;
+    font-weight:bold;
+    margin-top:2%;
+    font-family: 'Fugaz One', cursive;
+}
+
+.teambox {
+	display:flex;
+	flex-wrap:wrap;
+    justify-content:space-around;
+    padding:2%;
+}
+.teammember{
+	width:40%;
+	padding-top:2%;
+	margin:1%;
+	background:darkslategrey;
+	border:1px solid black;
+	border-radius:20px;
+	text-align:center;
+    color:#fff;
+    p{
+        margin:2%;
+        font-size:2rem;
+    }
+}
+
+
+
+	@media screen and (max-width: 768px) {
+		.teammember{
+			width:95%;
+		}
+	}
