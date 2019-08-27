@@ -335,15 +335,16 @@ footer {
   color: white;
   border-radius: 5px;
   font-size: 1.6rem;
+  width: 100%;
   padding: 15px;
   border-radius: 10px;
   text-align: center;
-  background-color: #22283A;
+  background-color: #000000;
   cursor: pointer;
 }
 .home .walk .walk-text .btn:hover {
-  background-color: #0483ff;
-  color: #191d2a;
+  background-color: #ebbb16;
+  color: #000000;
 }
 @media (max-width: 500px) {
   .home .walk .walk-text .btn {
