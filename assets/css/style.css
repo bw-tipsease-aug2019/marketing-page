@@ -253,10 +253,15 @@ html .land-body .container .signup button {
   width: 40%;
   border: 1px solid lightgray;
 }
-html {
+#teambody {
   background: #f5f5f5;
   background: linear-gradient(180deg, #f5f5f5 0%, #87c7b5 10%);
-  min-height: 1200%;
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 70%;
+  margin: 0 auto;
 }
 h3 {
   margin-top: 1%;
@@ -297,4 +302,7 @@ h3 {
   .teammember {
     width: 95%;
   }
+}
+#teambody .container {
+  width: 100%;
 }
