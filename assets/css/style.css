@@ -156,9 +156,11 @@ html .land-body .container .navbar .navbar-brand {
   font-size: 3rem;
   width: 50%;
 }
+
 html .land-body .container .navbar-toggler {
   background-color: #85bb65;
 }
+
 html .land-body .container .navbar-light .navbar-nav {
   width: 100%;
   display: flex;
@@ -168,11 +170,13 @@ html .land-body .container .navbar-light .navbar-nav .nav-link {
   color: white;
   text-shadow: 1px 1px black;
   font-size: 1.9rem;
+
   margin-left: 5rem;
   text-align: right;
 }
 html .land-body .container .navbar-light .navbar-nav .nav-link:hover {
   font-weight: bold;
+
 }
 html .land-body .container .landing {
   position: fixed;
@@ -193,11 +197,16 @@ html .land-body .container .slogan {
   font-size: 6rem;
   padding-bottom: 2.5rem;
   color: White;
+
+  text-shadow: 1px 1px #000000;
+
   width: 100%;
 }
 @media (max-width: 690px) {
   html .land-body .container .slogan {
+
     font-size: 4.75rem;
+
     width: 100%;
   }
 }
@@ -228,6 +237,7 @@ html .land-body .container .signup button {
 }
 .navbar-light .navbar-nav .nav-link {
   font-size: 1.9rem;
+
   margin-left: 5rem;
   text-align: right;
 }
@@ -236,6 +246,7 @@ html .land-body .container .signup button {
 }
 .navbar-light .navbar-nav #about {
   font-weight: bold;
+
 }
 .mission {
   margin-top: 15rem;
@@ -266,3 +277,61 @@ html .land-body .container .signup button {
   width: 40%;
   border: 1px solid lightgray;
 }
+
+#teambody {
+  background: #f5f5f5;
+  background: linear-gradient(180deg, #f5f5f5 0%, #87c7b5 10%);
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 70%;
+  margin: 0 auto;
+}
+#teambody h3 {
+  margin-top: 1%;
+  font-size: 2.5rem;
+}
+#teamhead {
+  text-align: center;
+  font-size: 4rem;
+  font-weight: bold;
+  margin-top: 2%;
+  font-family: 'Fugaz One', cursive;
+}
+.teambox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 2%;
+}
+.teammember {
+  width: 40%;
+  padding-top: 2%;
+  margin: 1%;
+  background: darkslategrey;
+  border: 1px solid black;
+  border-radius: 20px;
+  text-align: center;
+  color: #fff;
+}
+.teammember img {
+  height: 250px;
+  width: 250px;
+}
+.teammember p {
+  margin: 2%;
+  font-size: 2rem;
+}
+@media screen and (max-width: 1000px) {
+  .teammember {
+    width: 95%;
+  }
+}
+#teambody .container {
+  width: 100%;
+}
+#teambody .navbar {
+  border: 1px solid darkgrey;
+}
+

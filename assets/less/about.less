@@ -13,6 +13,7 @@
         justify-content: flex-end;
 
         .nav-link{
+
             font-size: 1.9rem;        
             margin-left: 5rem;       
             text-align: right;
@@ -22,11 +23,13 @@
         }
         #about{
             font-weight: bold;
+
         }
     }
 
     .mission{
-        margin-top: 15rem;
+
+        margin-top: 0rem;
         width: 50rem;
         @media @mobile{
             width: 100%;
@@ -44,4 +47,41 @@
         }
     }
 
+// Header
+.header {
+    
+    border-bottom: 2px dashed @navigation-border;
+  
+    
+  
+  .home {
+  
+    .content-section {
+      margin: 30px 0;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+  
+     
+  
+      .img-content {
+        width: 48%;
+        padding-left: 1%;
+  
+        @media @mobile {
+          width: 100%;
+          padding: 0;
+        }
+  
+        img {
+          border-radius: 10px;
+  
+          @media @mobile {
+            width: 100%;
+            padding: 0;
+          }
+        }
+      }
+    }
+  
 
