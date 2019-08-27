@@ -156,6 +156,9 @@ html .land-body .container .navbar .navbar-brand {
   font-size: 3rem;
   width: 50%;
 }
+html .land-body .container .navbar-toggler {
+  background-color: #85bb65;
+}
 html .land-body .container .navbar-light .navbar-nav {
   width: 100%;
   display: flex;
