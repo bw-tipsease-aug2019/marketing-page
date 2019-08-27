@@ -263,7 +263,7 @@ html .land-body .container .signup button {
   width: 70%;
   margin: 0 auto;
 }
-h3 {
+#teambody h3 {
   margin-top: 1%;
   font-size: 2.5rem;
 }
@@ -298,7 +298,7 @@ h3 {
   margin: 2%;
   font-size: 2rem;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1000px) {
   .teammember {
     width: 95%;
   }
