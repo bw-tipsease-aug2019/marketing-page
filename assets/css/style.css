@@ -397,6 +397,11 @@ html .land-body .container .signup button {
   transition: transform 0.8s;
   transform-style: preserve-3d;
 }
+@media (max-width: 690px) {
+  #animBox {
+    display: none;
+  }
+}
 @-webkit-keyframes example {
   0% {
     left: 10%;
