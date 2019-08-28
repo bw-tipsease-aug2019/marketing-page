@@ -381,7 +381,7 @@ html .land-body .container .signup button {
   font-size: 2.5rem;
   text-align: center;
   color: darkslategrey;
-  margin-top: 4%;
+  margin: 4% 0%;
 }
 #animBox {
   width: 124px;
@@ -396,6 +396,11 @@ html .land-body .container .signup button {
   animation-iteration-count: infinite;
   transition: transform 0.8s;
   transform-style: preserve-3d;
+}
+@media (max-width: 690px) {
+  #animBox {
+    display: none;
+  }
 }
 @-webkit-keyframes example {
   0% {

@@ -77,7 +77,8 @@
         font-size: 2.5rem;
         text-align:center;
         color:darkslategrey;
-        margin-top:4%;
+        margin:4% 0%;
+        
     }
 
 
@@ -100,7 +101,9 @@
         animation-iteration-count: infinite;
         transition: transform 0.8s;
         transform-style: preserve-3d;
-        
+        @media @mobile{
+            display:none;
+        }
     
     }
     
@@ -124,6 +127,8 @@
     75%  {left:45%;}
     100% {left:10%;}
 }
+
+
 
 
     #animation{
