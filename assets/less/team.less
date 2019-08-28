@@ -72,3 +72,71 @@
             
         }
 	}
+
+    #thanksbox{
+        font-size: 2.5rem;
+        text-align:center;
+        color:darkslategrey;
+        margin-top:4%;
+    }
+
+
+
+    #animBox{
+        
+       
+        
+        
+        
+        width: 124px;
+        height: 113px;
+        
+        position: absolute;
+        -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+        -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+        animation-name: example;
+        animation-duration:8.8s;
+        
+        animation-iteration-count: infinite;
+        transition: transform 0.8s;
+        transform-style: preserve-3d;
+        
+    
+    }
+    
+  
+
+@-webkit-keyframes example {
+  0%   {left:10%;}
+  25%  {left:45%;}
+  50%  {left:80%;}
+  75%  {left:45%;}
+  100% {left:10%;}
+}
+
+/* Standard syntax */
+@keyframes example {
+    0%   {left:10%;}
+    25%  {left:45%;}
+    40% {transform: rotateY(180deg);}
+    50%  {left:80%;}
+   
+    75%  {left:45%;}
+    100% {left:10%;}
+}
+
+
+    #animation{
+        
+        width:124px;
+        height:113px;
+        background: url("../img/spacedMoneyFrames.png") left center;
+        background-size: cover;
+        animation: play 1.5s steps(8) infinite;
+        
+    }
+
+    @keyframes play{
+
+        100% {background-position:-996px; }
+    }
