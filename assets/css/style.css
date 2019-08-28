@@ -332,7 +332,8 @@ html .land-body .container .signup button {
 }
 #teambody h3 {
   margin-top: 1%;
-  font-size: 2.5rem;
+  font-size: 2.7rem;
+  font-family: 'Iceland', cursive;
 }
 #teambody .navbar {
   border: 1px solid darkgrey;
@@ -368,6 +369,7 @@ html .land-body .container .signup button {
 .teammember p {
   margin: 2%;
   font-size: 2rem;
+  font-family: 'Iceland', cursive;
 }
 @media screen and (max-width: 1000px) {
   .teammember {
