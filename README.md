@@ -19,3 +19,13 @@ At minimum, this site should have the following:
 * A description about the service.
 
 * Be hosted on hosting platform like "Netlify" or "Github Pages." --- [Tipsease Homepage](https://bw-tipsease-aug2019.github.io/marketing-page/index.html)
+
+## Technologies Used
+
+* HTML
+
+* CSS/LESS
+
+* BootStrap 4
+
+* Google Fonts
