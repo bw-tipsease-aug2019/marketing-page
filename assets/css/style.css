@@ -264,8 +264,16 @@ html .land-body .container .signup button {
   font-weight: bold;
 }
 .mission {
-  margin: 0 auto;
-  margin-top: 1%;
+  margin: 2% auto;
+  border-radius: 10%;
+  border: 1px solid darkslategrey;
+  padding: 2%;
+  background-color: #85bb65;
+  border-radius: 10px;
+  font-family: 'Lato', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 50rem;
 }
 @media (max-width: 690px) {
@@ -273,14 +281,28 @@ html .land-body .container .signup button {
     width: 100%;
   }
 }
+.mission hr {
+  width: 50%;
+}
+.mission ul {
+  list-style-type: square;
+  padding: 2%;
+}
+.mission li {
+  margin: 6% 10px;
+  font-size: 2rem;
+}
 .mission h1 {
   font-size: 4rem;
   margin-bottom: 2rem;
   font-family: "Fugaz One", cursive;
 }
 .mission p {
-  font-size: 1.6rem;
+  margin-top: 2%;
+  text-align: center;
+  font-size: 2.2rem;
   margin-bottom: 2rem;
+  line-height: 3rem;
 }
 .header .home .content-section {
   margin: 30px 0;
@@ -332,7 +354,8 @@ html .land-body .container .signup button {
 }
 #teambody h3 {
   margin-top: 1%;
-  font-size: 2.5rem;
+  font-size: 2.7rem;
+  font-family: 'Iceland', cursive;
 }
 #teambody .navbar {
   border: 1px solid darkgrey;
@@ -364,10 +387,12 @@ html .land-body .container .signup button {
   height: auto;
   width: 250px;
   max-width: 90%;
+  border-radius: 10px;
 }
 .teammember p {
   margin: 2%;
   font-size: 2rem;
+  font-family: 'Iceland', cursive;
 }
 @media screen and (max-width: 1000px) {
   .teammember {
@@ -382,6 +407,7 @@ html .land-body .container .signup button {
   text-align: center;
   color: darkslategrey;
   margin: 4% 0%;
+  font-family: 'Lato', sans-serif;
 }
 #animBox {
   width: 124px;
