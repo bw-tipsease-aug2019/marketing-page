@@ -151,10 +151,14 @@ html .land-body {
   background-size: cover;
 }
 html .land-body .container .navbar .navbar-brand {
+  transition: color 1.5s ease;
   font-family: 'Fugaz One', cursive;
   color: #85bb65;
   font-size: 3rem;
   width: 50%;
+}
+html .land-body .container .navbar .navbar-brand:hover {
+  color: yellowgreen;
 }
 html .land-body .container .navbar-toggler {
   background-color: #85bb65;
@@ -203,12 +207,16 @@ html .land-body .container .slogan {
 }
 html .land-body .container .signup button {
   font-size: 2.5rem;
+  transition: background-color 1.5s ease;
   color: white;
   padding: 20px 40px;
   border-radius: 5px;
   background-color: #85bb65;
   border: none;
   text-shadow: 0px 1px 1px #000000;
+}
+html .land-body .container .signup button:hover {
+  background-color: yellowgreen;
 }
 @media (max-width: 690px) {
   html .land-body .container .signup button {
