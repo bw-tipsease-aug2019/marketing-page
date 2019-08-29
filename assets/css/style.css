@@ -268,7 +268,7 @@ html .land-body .container .signup button {
   border-radius: 10%;
   border: 1px solid darkslategrey;
   padding: 2%;
-  background-color: yellowgreen;
+  background-color: #85bb65;
   border-radius: 10px;
   font-family: 'Lato', sans-serif;
   display: flex;
@@ -289,7 +289,7 @@ html .land-body .container .signup button {
   padding: 2%;
 }
 .mission li {
-  margin: 6% 15px;
+  margin: 6% 10px;
   font-size: 2rem;
 }
 .mission h1 {
