@@ -42,87 +42,93 @@
   
 }
 
-    .navbar .navbar-brand{
-        font-family: 'Fugaz One', cursive;
-        color: #85bb65;
-        font-size: 3rem;
-        width: 50%;
-    }
-    .navbar .navbar-brand:hover{
-      color: #85bb65;
-    }
+.navbar .navbar-brand{
+    font-family: 'Fugaz One', cursive;
+    color: #85bb65;
+    font-size: 3rem;
+    width: 50%;
+    transition: color 1.5s ease;   
+      &:hover{
+          color:yellowgreen;
+      }
+}
 
-    .navbar-light .navbar-nav{
+
+.navbar-light .navbar-nav{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+
+    .nav-link{
+
+        font-size: 1.9rem;        
+        margin-left: 5rem;       
+        text-align: right;
+    }
+    .nav-link:hover{
+        font-weight: bold;
+    }
+    #current{
+        font-weight: bold;
+
+    }
+}
+
+.mission{
+
+  transition: background-color 1.5s ease;
+  
+    margin:2% auto;
+    border-radius:10%;
+    border:1px solid darkslategrey;
+    padding:2%;
+    background-color:#85bb65;
+    border-radius:10px;
+    font-family: 'Lato', sans-serif;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    width: 50rem;
+    @media @mobile{
         width: 100%;
-        display: flex;
-        justify-content: flex-end;
-
-        .nav-link{
-
-            font-size: 1.9rem;        
-            margin-left: 5rem;       
-            text-align: right;
-        }
-        .nav-link:hover{
-            font-weight: bold;
-        }
-        #current{
-            font-weight: bold;
-
-        }
+        
     }
-
-    .mission{
-    
-      transition: background-color 1.5s ease;
+    hr{
+      width:50%;
       
-        margin:2% auto;
-        border-radius:10%;
-        border:1px solid darkslategrey;
-        padding:2%;
-        background-color:#85bb65;
-        border-radius:10px;
-        font-family: 'Lato', sans-serif;
-        display:flex;
-        flex-direction:column;
-        align-items:center;
-        width: 50rem;
-        @media @mobile{
-            width: 100%;
-        }
-        hr{
-          width:50%;
-          
-        }
-        ul{
-          
-          list-style-type:square;
-          padding:2%;
-        }
-        li{
-          margin:6% 10px;
-          font-size:2rem;
-        }
-        h1{
-            font-size: 4rem;
-            
-            margin-bottom: 2rem;
-            font-family: "Fugaz One", cursive;
-        }
-
-        p{
-            margin-top:2%;
-            text-align:center;
-            font-size: 2.2rem;
-            margin-bottom: 2rem;
-            line-height:3rem;
-        }
     }
-    .mission:hover{
-      background:yellowgreen;
+    ul{
+      
+      list-style-type:square;
+      padding:2%;
+    }
+    li{
+      margin:6% 10px;
+      font-size:2rem;
+      @media @mobile{
+        margin-left:30px;
+      }
+    }
+    h1{
+        font-size: 4rem;
+        
+        margin-bottom: 2rem;
+        font-family: "Fugaz One", cursive;
     }
 
-// Header
+    p{
+        margin-top:2%;
+        text-align:center;
+        font-size: 2.2rem;
+        margin-bottom: 2rem;
+        line-height:3rem;
+    }
+}
+.mission:hover{
+  background:yellowgreen;
+}
+
+// Header -- Is this code doing ANYTHING?
 .header {
     
 
@@ -148,7 +154,7 @@
           padding: 0;
         }
   
-        img {
+        img { 
           border-radius: 10px;
   
           @media @mobile {
