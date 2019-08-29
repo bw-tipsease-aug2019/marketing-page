@@ -270,6 +270,10 @@ html .land-body .container .signup button {
   padding: 2%;
   background-color: yellowgreen;
   border-radius: 10px;
+  font-family: 'Lato', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 50rem;
 }
 @media (max-width: 690px) {
@@ -277,14 +281,28 @@ html .land-body .container .signup button {
     width: 100%;
   }
 }
+.mission hr {
+  width: 50%;
+}
+.mission ul {
+  list-style-type: square;
+  padding: 2%;
+}
+.mission li {
+  margin: 6% 15px;
+  font-size: 2rem;
+}
 .mission h1 {
   font-size: 4rem;
   margin-bottom: 2rem;
   font-family: "Fugaz One", cursive;
 }
 .mission p {
-  font-size: 1.6rem;
+  margin-top: 2%;
+  text-align: center;
+  font-size: 2.2rem;
   margin-bottom: 2rem;
+  line-height: 3rem;
 }
 .header .home .content-section {
   margin: 30px 0;
@@ -369,6 +387,7 @@ html .land-body .container .signup button {
   height: auto;
   width: 250px;
   max-width: 90%;
+  border-radius: 10px;
 }
 .teammember p {
   margin: 2%;
@@ -388,6 +407,7 @@ html .land-body .container .signup button {
   text-align: center;
   color: darkslategrey;
   margin: 4% 0%;
+  font-family: 'Lato', sans-serif;
 }
 #animBox {
   width: 124px;
