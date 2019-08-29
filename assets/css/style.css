@@ -264,8 +264,12 @@ html .land-body .container .signup button {
   font-weight: bold;
 }
 .mission {
-  margin: 0 auto;
-  margin-top: 1%;
+  margin: 2% auto;
+  border-radius: 10%;
+  border: 1px solid darkslategrey;
+  padding: 2%;
+  background-color: yellowgreen;
+  border-radius: 10px;
   width: 50rem;
 }
 @media (max-width: 690px) {
