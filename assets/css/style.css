@@ -151,11 +151,11 @@ html .land-body {
   background-size: cover;
 }
 html .land-body .container .navbar .navbar-brand {
-  transition: color 1.5s ease;
   font-family: 'Fugaz One', cursive;
   color: #85bb65;
   font-size: 3rem;
   width: 50%;
+  transition: color 1.5s ease;
 }
 html .land-body .container .navbar .navbar-brand:hover {
   color: yellowgreen;
@@ -251,9 +251,10 @@ html .land-body .container .signup button:hover {
   color: #85bb65;
   font-size: 3rem;
   width: 50%;
+  transition: color 1.5s ease;
 }
 .navbar .navbar-brand:hover {
-  color: #85bb65;
+  color: yellowgreen;
 }
 .navbar-light .navbar-nav {
   width: 100%;
